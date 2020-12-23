@@ -1,11 +1,11 @@
 const connectionStrings = {
-    secret: "cmpe202_secret_key",
+    secret: "",
     frontendURL: "http://localhost:3000",
-    mongoDB: 'mongodb+srv://root:mongodb@cluster0.fhenv.mongodb.net/homefinder?retryWrites=true&w=majority',
-    s3AccessKey : 'AKIAZJFUUTSGTAZZFVYP',
-    s3SecretAccessKey : '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',
+    mongoDB: '',
+    s3AccessKey : '',
+    s3SecretAccessKey : '',
     s3region : '',
-    s3BucketName : '202bucket'
+    s3BucketName : ''
 };
 
 module.exports = connectionStrings;
